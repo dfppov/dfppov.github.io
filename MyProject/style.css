@@ -15,6 +15,7 @@ nav{
     padding-left: 388px;
     float:left;
 }
+/*шапка*/
 .menu{
     float:left;
     padding-left: 432px;
@@ -26,35 +27,35 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-}
+}/*шапка*/
 
 .main{
     width: 100%;
-    height: calc (100% - 60px);
+    height: calc(100% - 60px);
     background: url(../MyProject/img/boy.jpg) no-repeat;
     
 }
 
-.title__container{
+.title_container{
     float: left;
     margin:432px 0px 0px 404px;
     color:#2c384a;
     text-align: center;
 }
 
-.title__container h1{
+.title_container h1{
     font-size: 60px;
     font-weight: bold;
 }
 
-.title__container h4{
+.title_container h4{
     margin-top: 40px;
     font-size: 22px;
     color: #828995;
 }
 
 
-.title__container input{
+.title_container input{
     height: 40;
     text-align: center;
     border: 2px solid #6d7682;
@@ -64,10 +65,60 @@ nav{
     font-size: 13px;
     padding: 8px 13px;
     margin:50px 14px 0px 14px;
-    font-weight: bold
+    font-weight: bold;
+}
+/*блок "обо мне"*/
+.about_me_container h2{
+    text-align: center; 
+    font-size: 22px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+.about_me_container{
+    width: 740px;
+    margin: 0 auto;
 }
 
-.text{
-      float: left;
-    
+.about_me_container img{
+    display: block;
+    margin: 0 auto;
+}
+
+.about_me_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/*бок "обо мне" (текст)*/
+.about_me_container p{
+    margin-top: 30px;
+}
+
+.about_me_container .secondText{
+    margin-top: 15px;
+}
+.skills_container h2{
+    text-align: center; 
+    width: 96px;
+    font-size: 22px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+/*блок "что я умею"*/
+.skills_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+ 
+.skills_item{
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+.clear{
+    clear: left;
 }
