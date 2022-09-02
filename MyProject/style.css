@@ -27,7 +27,7 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-}/*шапка*/
+}
 
 .main{
     width: 100%;
@@ -67,23 +67,22 @@ nav{
     margin:50px 14px 0px 14px;
     font-weight: bold;
 }
-/*блок "обо мне"*/
+/*заголовок "обо мне"*/
 .about_me_container h2{
     text-align: center; 
     font-size: 22px;
     margin: 10px auto;
     padding-bottom: 5px;
 }
-.about_me_container{
-    width: 740px;
-    margin: 0 auto;
-}
 
+/*кружок парень*/
 .about_me_container img{
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
+/*оранжевая полоска*/
 .about_me_container hr{
     height: 4px;
     border: none;
@@ -92,33 +91,117 @@ nav{
     margin: 0 auto;
 }
 
-/*бок "обо мне" (текст)*/
-.about_me_container p{
-    margin-top: 30px;
+/*текст под кружком*/
+.about_me_container{
+    width: 740px;
+    margin: 0 auto;
 }
 
+/*отступы между текстом под кружком*/
 .about_me_container .secondText{
     margin-top: 15px;
 }
+
+/*блок "обо мне" (текст)*/
+.about_me_container p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*кнопка "скачать резюме"*/
+.about_me_item a{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    background: none;
+    border-radius: 5px;
+    color:#6f707e;
+    font-size: 13px;
+    padding: 8px 13px;
+    margin: 0px 14px 0px 300px;
+    font-weight: bold;
+}
+
+/*заголовок "Что я умею"*/
 .skills_container h2{
     text-align: center; 
-    width: 96px;
+    width: 150px;
     font-size: 22px;
-    margin: 10px auto;
+    margin: 383px 0px 0px 385px;
     padding-bottom: 5px;
 }
-/*блок "что я умею"*/
-.skills_container{
-    width: 1200px;
+
+.clear{
+    clear: left;
+}
+
+/*оранжевая полоска*/
+.skills_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
     margin: 0 auto;
 }
- 
+
+/*4 блока "что я умею"*/
+.skills_container{
+    width: 920px;
+    margin: 0 auto;
+}
+/*цвет заголовков 4х блоков*/
+.skills_container h3{
+   color: #d17700;
+}
+ /*распределение 4х блоков по горизонтали*/
 .skills_item{
     float: left;
     width: 230px;
     text-align: center;
 }
 
+/*заголовок "кейсы"*/
+.cases_container h2{
+    text-align: center; 
+    width: 150px;
+    font-size: 22px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+/*оранжевая полоска*/
+.cases_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
+    margin: 0 auto;
+}
+/*текст под заголовком*/
+.cases_container p{
+    text-align: center;    
+    margin: 45px auto;
+}
+
+/*картинка*/
+.cases_item{
+    text-align:center;
+    float: left;
+}
+
 .clear{
     clear: left;
 }
+
+/*2 блока "кейсы" и картинка*/
+.cases_item{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+ /*1й блок*/
+.cases_item_1{
+    float: left;
+    width: 1000px;
+    text-align: center;
+}
+
