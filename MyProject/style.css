@@ -178,18 +178,14 @@ nav{
 }
 /*текст под заголовком*/
 .cases_container p{
-    text-align: center;    
-    margin: 45px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 /*картинка*/
 .cases_item{
-    text-align:center;
-    float: left;
-}
-
-.clear{
-    clear: left;
+    max-width: 100%;
 }
 
 /*2 блока "кейсы" и картинка*/
@@ -201,7 +197,17 @@ nav{
  /*1й блок*/
 .cases_item_1{
     float: left;
-    width: 1000px;
-    text-align: center;
+    width: 300px;
+    margin-left: 400px;
+    height: 150px;
 }
 
+.cases_item_1 h5{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    
+}
+/*2й блок*/
+.cases_item_2{
+width: 1200px;
+}
