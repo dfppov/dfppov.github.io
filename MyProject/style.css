@@ -178,7 +178,6 @@ nav{
 }
 /*текст под заголовком*/
 .cases_container p{
-    margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
 }
