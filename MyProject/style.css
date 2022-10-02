@@ -70,7 +70,7 @@ nav{
 /*заголовок "обо мне"*/
 .about_me_container h2{
     text-align: center; 
-    font-size: 22px;
+    font-size: 22px; 
     margin: 10px auto;
     padding-bottom: 5px;
 }
@@ -128,7 +128,7 @@ nav{
     width: 150px;
     font-size: 22px;
     margin: 383px 0px 0px 385px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
 }
 
 .clear{
@@ -149,10 +149,12 @@ nav{
     width: 920px;
     margin: 0 auto;
 }
+
 /*цвет заголовков 4х блоков*/
 .skills_container h3{
    color: #d17700;
 }
+
  /*распределение 4х блоков по горизонтали*/
 .skills_item{
     float: left;
@@ -166,7 +168,7 @@ nav{
     width: 150px;
     font-size: 22px;
     margin: 10px auto;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 /*оранжевая полоска*/
 .cases_container hr{
@@ -193,7 +195,7 @@ nav{
     margin: 0 auto;
 }
 
- /*1й блок*/
+ /*1й блок---------------------------------*/
 .cases_item_1{
     float: left;
     width: 300px;
@@ -211,7 +213,91 @@ nav{
 width: 1200px;
 }
 
+/*название проекта*/
 .cas_2{
     clear:both;
-    
+}
+/*текст под подзаголовком*/
+.cases_item_2 second{
+    text-align: left;
+}
+
+/*расчет стоимсоти*/
+.calculator{
+    float: left;
+    width: 300px;
+    margin-left: 400px;
+    height: 150px;
+}
+
+.calculator_item{
+    margin-top: 45px;
+    margin-bottom: 45px; 
+}
+.price{
+    margin-top: 20px;
+}
+
+/*заголовок "немного статистики"*/
+.statistics h2{
+    text-align: center; 
+    width: 300px;
+    font-size: 22px;
+    margin: 383px 0px 0px 310px;
+    padding-bottom: 30px;
+}
+
+.clear{
+    clear: left;
+}
+
+/*оранжевая полоска*/
+.statistics_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/*4 блока "немного статистики"*/
+.statistics_container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/*цвет заголовков 4х блоков*/
+.statistics_container h3{
+   color: #d17700;
+}
+
+ /*распределение 4х блоков по горизонтали*/
+.statistics_item{
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+/*заголовок "отзывы"*/
+.feedback_container h2{
+    text-align: center;
+    font-size: 22px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+
+/*оранжевая полоска*/
+.feedback_item hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/*кружок парень 2*/
+.feedback_item img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
 }
