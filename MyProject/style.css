@@ -195,7 +195,7 @@ nav{
     margin: 0 auto;
 }
 
- /*1й блок---------------------------------*/
+ /*1й блок*/
 .cases_item_1{
     float: left;
     width: 300px;
@@ -275,7 +275,7 @@ width: 1200px;
 .statistics_item{
     float: left;
     width: 230px;
-    text-align: center;
+    text-align: left;
 }
 
 /*заголовок "отзывы"*/
@@ -287,7 +287,7 @@ width: 1200px;
 }
 
 /*оранжевая полоска*/
-.feedback_item hr{
+.feedback_container hr{
     height: 4px;
     border: none;
     background: #d17700;
@@ -300,4 +300,46 @@ width: 1200px;
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+/*подпись под кружочком*/
+.feedback_item{
+    text-align: center;
+}
+
+.feedback_item perenos{
+    
+}
+
+.feedback_item p{
+    margin-top: 36px;
+}
+
+/*мои контакты*/
+.fcontacts_container h2{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:33px;
+}
+
+/*оранжевая полоска*/
+.fcontacts_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/*текст под оранжевой полоской*/
+.fcontacts_item p{
+    text-align: center;
+    margin-top: 32px
+}
+
+ /*распределение 3х блоков по горизонтали*/
+.fcontacts_item{
+    float: left;
+    width: 230px;
+    text-align: left;
 }
