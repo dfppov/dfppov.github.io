@@ -332,14 +332,13 @@ width: 1200px;
 }
 
 /*текст под оранжевой полоской*/
-.fcontacts_item p{
+.fcontacts_item1{
     text-align: center;
-    margin-top: 32px
+    margin: 0 auto;
 }
 
  /*распределение 3х блоков по горизонтали*/
 .fcontacts_item{
-    float: left;
     width: 230px;
-    text-align: left;
+    text-align: center;
 }
