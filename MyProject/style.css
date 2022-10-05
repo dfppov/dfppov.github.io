@@ -339,6 +339,7 @@ width: 1200px;
 
  /*распределение 3х блоков по горизонтали*/
 .fcontacts_item{
+    float:left;
     width: 230px;
     text-align: center;
 }
