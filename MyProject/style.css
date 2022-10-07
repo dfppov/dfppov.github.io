@@ -307,10 +307,6 @@ width: 1200px;
     text-align: center;
 }
 
-.feedback_item perenos{
-    
-}
-
 .feedback_item p{
     margin-top: 36px;
 }
@@ -334,7 +330,7 @@ width: 1200px;
 /*текст под оранжевой полоской*/
 .fcontacts_item1{
     text-align: center;
-    margin: 0 auto;
+    margin: 37px;
 }
 
  /*распределение 3х блоков по горизонтали*/
@@ -342,4 +338,63 @@ width: 1200px;
     float:left;
     width: 230px;
     text-align: center;
+    margin: 0px -550px 0px 550px;
+    margin-top: 50px;
 }
+
+/* блок "оставьте мне сообщение" */
+.message_item h3{
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 46px;
+}
+
+/*3 блока "оставьте мне сообщение"*/
+.message_item{
+    text-align: center;
+    margin-bottom: 28px;
+}
+/*кнопка "отправить"*/
+.message_item a{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    background: none;
+    border-radius: 5px;
+    color:#6f707e;
+    font-size: 13px;
+    padding: 8px 13px;
+    margin: 0px 14px 0px 0px;
+    font-weight: bold;
+}
+
+/*распределение 6 блоков по горизонтали "оствьте мне сообщение"*/
+.networks_item{
+    float:left;
+    width: 100px;
+    text-align: center;
+    margin-top: 0px 0px 0px 0px;
+    margin-bottom: 66px;
+}
+
+/*6 блоков "оставьте мне сообщение"*/
+.networks_container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/*карта*/
+.navigation_item{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../MyProject/img/map.jpg);
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
