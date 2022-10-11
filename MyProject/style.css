@@ -385,13 +385,11 @@ width: 1200px;
 
 /*карта*/
 .navigation_item{
-    width: 100%;
-    height: calc(100% - 60px);
+    height: 400px;
     background: url(../MyProject/img/map.jpg);
-    margin-top: 100px;
+    background-size: cover;
+    margin-top: 150px;
 }
-
-
 
 
 
